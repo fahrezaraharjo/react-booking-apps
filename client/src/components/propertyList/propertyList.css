@@ -11,6 +11,12 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;  
+}
+
+.pListItem:hover{
+  transform: scale(1.1,1.1)
 }
 
 .pListImg{
@@ -21,11 +27,12 @@
 
 .pListTitles>h1{
   font-size: 18px;
-  color: #444;
+  color: rgb(170, 170, 170);
   text-transform: capitalize;
 }
 
 .pListTitles>h2{
   font-size: 14px;
   font-weight: 300;
+  color: white;
 }
