@@ -1,5 +1,4 @@
 .header {
-  background-color: #003580;
   color: white;
   display: flex;
   justify-content: center;
@@ -39,23 +38,30 @@
 }
 
 .headerBtn {
-  background-color: #0071c2;
+  background-color: black;
   color: white;
   font-weight: 500;
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid hsla(225,39%,30%,1);
+}
+
+.headerBtn:hover{
+  background-color: white;
+  color: black;
 }
 
 .headerSearch {
-  height: 30px;
+  height: 50px;
   background-color: white;
-  border: 3px solid #febb02;
+  border: 3px solid hsla(225,39%,30%,1);
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px 0px;
-  border-radius: 5px;
+  border-radius: 10px;
   position: absolute;
   bottom: -25px;
   width: 100%;

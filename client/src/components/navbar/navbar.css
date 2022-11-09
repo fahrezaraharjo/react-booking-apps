@@ -25,6 +25,8 @@
   color: white;
   border-radius: 20px;
   background-color: black;
+  border: 1px solid hsla(225,39%,30%,1);
+
 }
 
 .navButton:hover{
