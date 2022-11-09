@@ -1,6 +1,5 @@
 .navbar{
   height: 50px;
-  background-color: #003580;
   display: flex;
   justify-content: center;
 }
@@ -23,5 +22,12 @@
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #003580;
+  color: white;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.navButton:hover{
+  color: black;
+  background-color: white;
 }
