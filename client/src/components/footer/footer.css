@@ -18,6 +18,10 @@
 
 .fListItem{
   margin-bottom: 10px;
-  color: #003580;
+  color: #c3c2c2;
   cursor: pointer;
+}
+
+.fListItem:hover{
+  color: white;
 }
