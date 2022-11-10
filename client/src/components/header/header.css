@@ -56,7 +56,7 @@
 .headerSearch {
   height: 50px;
   background-color: white;
-  border: 3px solid hsla(225,39%,30%,1);
+  border: 3px solid rgb(254, 254, 254);
   display: flex;
   align-items: center;
   justify-content: space-around;
