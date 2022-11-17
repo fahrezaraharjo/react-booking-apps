@@ -22,7 +22,7 @@
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: white;
+  color: rgb(16, 16, 16);
   border-radius: 20px;
   background-color: black;
   border: 1px solid hsla(225,39%,30%,1);
@@ -30,6 +30,6 @@
 }
 
 .navButton:hover{
-  color: black;
-  background-color: white;
+  color: rgb(253, 253, 253);
+  background-color: rgb(5, 5, 5);
 }

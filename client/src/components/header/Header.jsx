@@ -92,7 +92,7 @@ const Header = ({ type }) => {
               Get rewarded for your travels – unlock instant savings of 10% or
               more with a free Rezabooking account
             </p>
-            {!user && <button className="headerBtn">Sign in / Register</button>}
+            {!user && <button className="headerBtn bg-blue-gradient">Sign in / Register</button>}
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
@@ -136,7 +136,7 @@ const Header = ({ type }) => {
                       <div className="optionCounter">
                         <button
                           disabled={options.adult <= 1}
-                          className="optionCounterButton"
+                          className="optionCounterButton bg-blue-gradient"
                           onClick={() => handleOption("adult", "d")}
                         >
                           -
@@ -157,7 +157,7 @@ const Header = ({ type }) => {
                       <div className="optionCounter">
                         <button
                           disabled={options.children <= 0}
-                          className="optionCounterButton"
+                          className="optionCounterButton bg-blue-gradient"
                           onClick={() => handleOption("children", "d")}
                         >
                           -
@@ -198,7 +198,7 @@ const Header = ({ type }) => {
                 )}
               </div>
               <div className="headerSearchItem">
-                <button className="headerBtn" onClick={handleSearch}>
+                <button className="headerBtn bg-blue-gradient" onClick={handleSearch}>
                   Search
                 </button>
               </div>
